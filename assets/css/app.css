@@ -1413,6 +1413,7 @@ body {
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link:hover {
 	color: #fff;
 	background-color: #77765a;
+	border-radius: 10px;
 }
 
 [data-layout=vertical][data-sidebar=dark] .navbar-nav .nav-link:hover .icon-dual {
@@ -16355,4 +16356,9 @@ i.bx.bx-chevron-right {
 .gallery-wrapper.element-item.col-xxl-4.col-xl-4.col-sm-4 {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.image-gallery {
+	width: 32.7%;
+    display: inline-block;
 }
