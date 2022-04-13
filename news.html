@@ -10,8 +10,6 @@
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
-    <!-- Glightbox CSS -->
-    <link rel="stylesheet" href="assets/libs/glightbox/css/glightbox.min.css">
     <!-- Layout config Js -->
     <script src="assets/js/layout.js"></script>
     <!-- Bootstrap CSS -->
@@ -713,64 +711,161 @@
                         <div class="col-xxl-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div id="carouselExample" class="carousel slide" data-ride="carousel" data-bs-interval="false">
-                                                <div class="carousel-inner p-4">
-                                                    <div class="row">
-                                                        <h3 class="news">News Listing</h3>
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                                            <i class='bx bx-chevron-left'></i>
-                                                        </button>
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                                            <i class='bx bx-chevron-right'></i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="carousel-item active">
-                                                        <div class="row">
-                                                            <div class="col-12 mt-5">
-                                                                <h4 class="headlines">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aenean ligula eget dolor.</h4>
-                                                                <p class="date pt-3">01 March 2022, Abu Dhabi</p>
-                                                                <div class="more mt-5">
-                                                                    <p class="view"><i class="mdi mdi-eye"></i> 382</p>
-                                                                    <p class="like"><i class="mdi mdi-thumb-up"></i> 382</p>
-                                                                    <a class="read-more" href="#">Read More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="row">
-                                                            <div class="col-12 mt-5">
-                                                                <h4 class="headlines">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aenean ligula eget dolor.</h4>
-                                                                <p class="date pt-3">01 March 2022, Abu Dhabi</p>
-                                                                <div class="more mt-5">
-                                                                    <p class="view"><i class="mdi mdi-eye"></i> 382</p>
-                                                                    <p class="like"><i class="mdi mdi-thumb-up"></i> 382</p>
-                                                                    <a class="read-more" href="#">Read More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="row">
-                                                            <div class="col-12 mt-5">
-                                                                <h4 class="headlines">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aenean ligula eget dolor.</h4>
-                                                                <p class="date pt-3">01 March 2022, Abu Dhabi</p>
-                                                                <div class="more mt-5">
-                                                                    <p class="view"><i class="mdi mdi-eye"></i> 382</p>
-                                                                    <p class="like"><i class="mdi mdi-thumb-up"></i> 382</p>
-                                                                    <a class="read-more" href="#">Read More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-12 col-md-2 my-auto">
+                                            <h3 class="fw-bold mb-0 text-center">News Listing</h3>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4"></div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <form class="news-search">
+                                                <div class="position-relative">
+                                                    <input type="text" class="form-control" placeholder="Search..." autocomplete="off"
+                                                        id="search-options" value="">
+                                                    <span class="mdi mdi-magnify search-widget-icon"></span>
+                                                    <span class="mdi mdi-close-circle search-widget-icon search-widget-icon-close d-none"
+                                                        id="search-close-options"></span>
                                                 </div>
-                                            </div>
+                                            </form>
                                         </div>
-                                        <div class="col-6">
-                                            <img class="d-block img-fluid news-img" src="./assets/images/news/news_21_1.jpg" alt="First slide">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-3">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">23</p>
+                                            <p class="news-month">Apr 2022</p>
                                         </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">15</p>
+                                            <p class="news-month">May 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">21</p>
+                                            <p class="news-month">Jun 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">11</p>
+                                            <p class="news-month">Sep 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">16</p>
+                                            <p class="news-month">May 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">24</p>
+                                            <p class="news-month">Jun 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <div class="col-sm-12 col-md-1"></div>
+                                        <div class="col-sm-2 col-md-2 text-center my-auto">
+                                            <p class="news-date">02</p>
+                                            <p class="news-month">Sep 2022</p>
+                                        </div>
+                                        <div class="col-sm-5 col-md-4">
+                                            <img class="d-block img-fluid news-img" src="assets/images/news/news-img.jpg" alt="First slide">
+                                        </div>
+                                        <div class="col-sm-5 col-md-4 my-auto">
+                                            <h4 class="news-headlines">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                            <p class="news-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                            <a class="news-read-more" href="#">Read More</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1"></div>
+                                    </div>
+                                    <div class="row pt-5">
+                                        <nav aria-label="Page navigation example">
+                                            <ul class="pagination justify-content-center">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                <li class="page-item active"><a class="page-link" href="#">5</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">30</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                          </nav>
                                     </div>
                                 </div>
                             </div>
@@ -792,15 +887,6 @@
     <script src="assets/libs/feather-icons/feather.min.js"></script>
     <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
     <script src="assets/js/plugins.js"></script>
-
-    <!-- glightbox js -->
-    <script src="assets/libs/glightbox/js/glightbox.min.js"></script>
-
-    <!-- isotope-layout -->
-    <script src="assets/libs/isotope-layout/isotope.pkgd.min.js"></script>
-
-    <script src="assets/js/pages/gallery.init.js"></script>
-    
     <!-- App js -->
     <script src="assets/js/app.js"></script>
     
