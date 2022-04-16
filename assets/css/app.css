@@ -16527,7 +16527,7 @@ i.bx.bx-chevron-right {
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
 	.user {
-		width: 150px;
+		width: 145px;
 	}
 
 	.headlines {
@@ -16557,6 +16557,11 @@ i.bx.bx-chevron-right {
 
 	.quicklinks-row p {
 		margin-bottom: 0.5rem;
+	}
+
+	.gift-text {
+		padding: 15px 0;
+    	font-size: 23px;
 	}
 }
 
