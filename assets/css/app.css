@@ -16224,6 +16224,10 @@ i.bx.bx-chevron-right {
 	padding-top: 25px;
 }
 
+.coming {
+	margin-bottom: 0.2rem;
+}
+
 .day {
 	color: #77765a;
 	font-size: 45px;
@@ -16596,7 +16600,7 @@ i.bx.bx-chevron-right {
 	}
 
 	.gift-text {
-		padding: 20px 0;
+		padding: 18px 0;
 		font-size: 26px;
 	}
 
