@@ -16187,6 +16187,11 @@ i.bx.bx-chevron-right {
 	color: #77765a;
 }
 
+a.read-more:hover {
+	text-decoration: underline !important;
+	color: #77765a;
+}
+
 .user {
 	border-radius: 50%;
 	width: 100px;
@@ -16244,7 +16249,7 @@ i.bx.bx-chevron-right {
 
 .time {
 	color: #77765a;
-	font-size: 28px;
+	font-size: 31px;
 	margin-bottom: 0px;
 }
 
@@ -16557,7 +16562,7 @@ i.bx.bx-chevron-right {
 	}
 
 	.quicklinks-row {
-		padding-top: 13px;
+		padding-top: 14px;
 	}
 
 	.quicklinks-row p {
